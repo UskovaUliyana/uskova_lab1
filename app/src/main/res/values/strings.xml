@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">UskovaLab1</string>
+    <string name="app_name">Uskova Lab 1</string>
+    <string name="uskova_hint">Введи что-нибудь</string>
+    <string name="uskova_button">ЖМИ СЮДА</string>
+    <string name="uskova_default">Тут будет результат...</string>
+    <string name="uskova_toast">Ты ввел: </string>
 </resources>
