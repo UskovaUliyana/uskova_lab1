@@ -10,7 +10,7 @@
         android:id="@+id/uskovaInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/uskova_hint"
+        android:hint="Введите текст"
         android:textSize="18sp" />
 
     <Button
@@ -18,15 +18,32 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="@string/uskova_button" />
+        android:text="Показать"
+        android:backgroundTint="#C8E6C9" />
 
     <TextView
         android:id="@+id/uskovaText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="@string/uskova_default"
+        android:text="Тут будет результат..."
         android:textSize="20sp"
         android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Лаба №2"
+        android:backgroundTint="#C8E6C9" />
+
+    <Button
+        android:id="@+id/btnAbout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Об авторе"
+        android:backgroundTint="#C8E6C9" />
 
 </LinearLayout>
