@@ -21,12 +21,13 @@ public class UskovaFragment extends Fragment {
     private TextView uskovaText;
     private Button btnSettings;
     private Button btnAbout;
+    private Button btnSecond;
     private OnFragmentActionListener callback;
 
-    // Интерфейс для коллбэков
     public interface OnFragmentActionListener {
         void onOpenSettingsClick();
         void onOpenAboutClick();
+        void onOpenDetailsClick();
     }
 
     @Nullable
@@ -39,6 +40,7 @@ public class UskovaFragment extends Fragment {
         uskovaText = view.findViewById(R.id.uskovaText);
         btnSettings = view.findViewById(R.id.btnSettings);
         btnAbout = view.findViewById(R.id.btnAbout);
+        btnSecond = view.findViewById(R.id.btnSecond);
 
         uskovaBtn.setOnClickListener(v -> {
             String input = uskovaInput.getText().toString();
@@ -57,6 +59,10 @@ public class UskovaFragment extends Fragment {
 
         btnAbout.setOnClickListener(v -> {
             if (callback != null) callback.onOpenAboutClick();
+        });
+
+        btnSecond.setOnClickListener(v -> {
+            if (callback != null) callback.onOpenDetailsClick();
         });
 
         return view;

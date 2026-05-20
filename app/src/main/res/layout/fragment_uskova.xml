@@ -46,4 +46,12 @@
         android:text="Об авторе"
         android:backgroundTint="#C8E6C9" />
 
+    <Button
+        android:id="@+id/btnSecond"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Подробнее"
+        android:backgroundTint="#C8E6C9" />
+
 </LinearLayout>
