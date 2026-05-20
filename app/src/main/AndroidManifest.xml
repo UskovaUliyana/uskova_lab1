@@ -11,6 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.UskovaLab1">
+        android:name=".BusApp"
         <activity
             android:name=".AboutActivity"
             android:exported="false" />

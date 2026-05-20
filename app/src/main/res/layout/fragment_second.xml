@@ -13,5 +13,18 @@
         android:text="Второй фрагмент"
         android:textSize="22sp"
         android:textStyle="bold" />
+    <FrameLayout
+        android:id="@+id/childContainer"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:background="#F1F8E9" />
+    <Button
+        android:id="@+id/btnSendEvent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Отправить событие"
+        android:backgroundTint="#C8E6C9" />
 
 </LinearLayout>
